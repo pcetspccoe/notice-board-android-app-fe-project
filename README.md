@@ -18,6 +18,10 @@ Notice Board app for the First Year Department of Engineering, Pimpri Chinchwad 
 
 [Click Here](https://github.com/pcetspccoe/notice-board-android-app-fe-project/raw/master/Extras/Notice%20Board%20App%20Presentation.pdf) to download the presentation in .PDF format.
 
+## Project Files in .rar
+
+[Click Here](https://github.com/pcetspccoe/notice-board-android-app-fe-project/raw/master/Extras/notice-board-android-app-fe-project.rar) to download the .rar for entire project files.
+
 
 ## Download The .apk File
 
