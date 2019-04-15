@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="7dp" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grandparent_layout"
+        android:outlineProvider="bounds">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:id="@+id/parent_layout"
+            android:outlineProvider="bounds"
+            android:layout_margin="4dp"
+            android:background="@drawable/layout_rounded_corners_bg">
+
+            <ImageView
+                android:layout_width="112.5dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/notice_image"
+                android:src="@mipmap/ic_launcher"
+                android:contentDescription="Image"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_toEndOf="@+id/notice_image">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:id="@+id/notice_title"
+                    android:textColor="#000"
+                    android:layout_margin="8dp"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:id="@+id/notice_id"
+                    android:textColor="#000"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="1dp"
+                    android:textSize="17sp"
+                    android:text="The description for the Notice goes here."
+                    android:id="@+id/notice_description"
+                    android:layout_toEndOf="@+id/notice_title" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="1dp"
+                    android:textSize="17sp"
+                    android:text="Read More..."
+                    android:id="@+id/read_more"
+                    android:layout_toEndOf="@+id/notice_description"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
