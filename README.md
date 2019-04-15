@@ -16,4 +16,4 @@ Notice Board app for the First Year Department of Engineering, Pimpri Chinchwad 
 
 ## Download The .apk File
 
-[Notice Board App .apk File](https://github.com/pcetspccoe/notice-board-android-app-fe-project/raw/master/Extras/NoticeBoardApp%20v-1.0.1.apk)
+[Notice Board App .apk File (version 1.0.1)](https://github.com/pcetspccoe/notice-board-android-app-fe-project/raw/master/Extras/NoticeBoardApp%20v-1.0.1.apk)
